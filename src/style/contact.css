@@ -1,0 +1,137 @@
+.contact-box {
+  background-color: #818080;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+  color: #0a0a0a;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-family: serif;
+  font-size: 2.5rem; 
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #757474;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #696868;
+  color: #070707;
+  animation: fadeIn 0.5s ease-in-out 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #414040;
+  color: #242525;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 0.5s ease-in-out 0.4s;  
+}
+
+.link-item {
+  margin: 0 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-content h2 {
+      font-size: 2rem; 
+      margin-bottom: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+      font-size: 0.9rem; 
+  }
+
+  .btn {
+      padding: 10px 20px; 
+      font-size: 0.9rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-box {
+      padding: 30px 10px; 
+  }
+
+  .contact-content h2 {
+      font-size: 1.5rem; 
+  }
+
+  .form-group textarea {
+      height: 120px; 
+  }
+
+  .btn {
+      padding: 8px 16px; 
+      font-size: 0.8rem; 
+  }
+
+  .contact-links {
+      flex-direction: column; 
+  }
+
+  .link-item {
+      margin: 5px 0; 
+  }
+}
