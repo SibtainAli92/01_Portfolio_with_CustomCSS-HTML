@@ -58,6 +58,22 @@ export default function Project(){
         <button type="button"><a href="https://02-todo-list.vercel.app/"  target="_blank">View List</a></button>
       </div>
 
+      <div className="project-item">
+        <Image
+          src="/simple-calculator.png"
+          alt="Portfolio Item Image"
+          width={300}
+          height={250}
+          className="portfolio-image"
+        />
+
+        <h3>Simple calculator</h3>
+        <p>
+        A website powered by Next.js and TypeScript, featuring a simple calculator for performing basic arithmetic operations.
+        </p>
+        <button type="button"><a href="https://simple-calculator-one-tau.vercel.app/"  target="_blank">View List</a></button>
+      </div>
+
         </div>     
 
     </div>
