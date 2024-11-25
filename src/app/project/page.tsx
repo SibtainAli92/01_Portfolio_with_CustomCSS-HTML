@@ -71,7 +71,7 @@ export default function Project(){
         <p>
         A website powered by Next.js and TypeScript, featuring a simple calculator for performing basic arithmetic operations.
         </p>
-        <button type="button"><a href="https://simple-calculator-one-tau.vercel.app/"  target="_blank">View List</a></button>
+        <button type="button"><a href="https://simple-calculator-one-tau.vercel.app/"  target="_blank">View Calculator</a></button>
       </div>
 
         </div>     
