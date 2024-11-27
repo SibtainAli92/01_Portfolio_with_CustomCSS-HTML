@@ -74,6 +74,37 @@ export default function Project(){
         <button type="button"><a href="https://simple-calculator-one-tau.vercel.app/"  target="_blank">View Calculator</a></button>
       </div>
 
+      <div className="project-item">
+        <Image
+          src="/digital-clock.png"
+          alt="digital clock"
+          width={300}
+          height={250}
+          className="portfolio-image"
+        />
+
+        <h3>Digital Clock</h3>
+        <p>
+        A website presenting a modern digital clock that displays the current time with a clean and minimalist design.        </p>
+        <button type="button"><a href="https://digital-clock-two-pi.vercel.app/"  target="_blank">View Clock</a></button>
+      </div>
+
+      <div className="project-item">
+        <Image
+          src="/joke.png"
+          alt=""
+          width={300}
+          height={250}
+          className="portfolio-image"
+        />
+
+        <h3>Random Joke</h3>
+        <p>
+        A website powered by Next.js and TypeScript, featuring a simple random joke generator for endless laughs!
+                </p>
+        <button type="button"><a href="https://random-joke-two.vercel.app/"  target="_blank">View Joke</a></button>
+      </div>
+
         </div>     
 
     </div>
