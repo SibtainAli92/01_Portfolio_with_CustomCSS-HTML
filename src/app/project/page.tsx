@@ -91,7 +91,7 @@ export default function Project(){
 
       <div className="project-item">
         <Image
-          src="/joke.png"
+          src="/joke_01.png"
           alt=""
           width={300}
           height={250}
