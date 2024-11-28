@@ -8,7 +8,7 @@ export default function Project(){
         <div className="main-div">
         <div className="project-item">
         <Image
-          src="/countdown_timer.png"
+          src="/count.png"
           alt="Portfolio Item Image"
           width={300}
           height={250}
