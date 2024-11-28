@@ -105,6 +105,21 @@ export default function Project(){
         <button type="button"><a href="https://random-joke-two.vercel.app/"  target="_blank">View Joke</a></button>
       </div>
 
+      <div className="project-item">
+        <Image
+          src="/birthday.png"
+          alt=""
+          width={300}
+          height={250}
+          className="portfolio-image"
+        />
+
+        <h3>Birthday Celebration</h3>
+        <p>
+        Birthday celebration website featuring an elegant card design that showcases a joyful birthday message, interactive candles and balloons.                </p>
+        <button type="button"><a href="https://birthday-celebration-ebon.vercel.app/"  target="_blank">View Birthday</a></button>
+      </div>
+
         </div>     
 
     </div>
