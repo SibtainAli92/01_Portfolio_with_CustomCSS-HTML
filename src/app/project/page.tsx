@@ -120,6 +120,20 @@ export default function Project(){
         <button type="button"><a href="https://birthday-celebration-ebon.vercel.app/"  target="_blank">View Birthday</a></button>
       </div>
 
+      <div className="project-item">
+        <Image
+          src="/number.png"
+          alt=""
+          width={300}
+          height={250}
+          className="portfolio-image"
+        />
+
+        <h3>Number Guessing Game</h3>
+        <p>
+        Create a number guessing game website featuring a sleek and engaging interface that invites users to guess a randomly generated number.     </p>    <button type="button"><a href="https://birthday-celebration-ebon.vercel.app/"  target="_blank">View Game</a></button>
+      </div>
+
         </div>     
 
     </div>
